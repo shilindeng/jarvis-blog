@@ -1,0 +1,26 @@
+{
+  "name": "jarvis-blog",
+  "author": "Jarvis",
+  "description": "A复古中文风技术博客模板",
+  "website": "https://your-domain.pages.dev",
+  "repository": "https://github.com/shilin/blog",
+  "license": "MIT",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.4",
+    "@astrojs/mdx": "^4.3.3",
+    "@astrojs/rss": "4.0.12",
+    "@astrojs/sitemap": "3.4.2",
+    "astro": "5.12.8",
+    "sass": "^1.79.4",
+    "typescript": "^5.6.2"
+  }
+}

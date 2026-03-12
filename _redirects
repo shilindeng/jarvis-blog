@@ -1,0 +1,3 @@
+# Cloudflare Pages build configuration
+build_command: yarn build
+build_output_dir: dist
